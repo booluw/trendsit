@@ -4,7 +4,10 @@
     <section class="services -mt-24 relative bg-gray-800 mx-2 md:mx-12 mb-10 text-white rounded-lg overflow-hidden">
       <div class="flex flex-col md:flex-row">
         <div class="md:basis-2/4 md:w-2/4 py-10 px-5 md:py-20 md:pl-20 md:pr-10 flex flex-col justify-center">
-          <h1 class="text-gray-500 text-4xl md:text-8xl font-bold mb-5">Services</h1>
+          <h1 class="text-gray-500 text-4xl md:text-8xl font-bold mb-5">
+            Our<br />
+            Services
+          </h1>
           <p>
             At Trends IT, we offer network services that will set your business up for success by giving you the monitoring you need to keep networks running smoothly, the structure you need to increase and maximize productivity, and the responsive service you require when issues arise.
             <br/><br/>
@@ -81,6 +84,26 @@
         </div>
       </div>
     </section>
+    <section class="text-gray-800 bg-white md:flex mx-2 md:mx-12 mb-10 items-center justify-end">
+      <div class="md:basis-1/2 md:w-1/2">
+        <img src="~/assets/img/busy-switch.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
+        <h1 class="text-gray-800 text-4xl md:text-8xl font-bold mb-5">
+          Our <br />
+          Values
+        </h1>
+        <p>
+          We have an extensive background of providing solutions for multi-site and multi-platform environments. As a result, we are an ideal partner to design new systems or upgrade an existing network.
+        </p>
+        <ul class="list-disc mx-4 mt-5">
+          <li>Responsiveness</li>
+          <li>Productivity</li>
+          <li>Dedication</li>
+          <li>Excellence</li>
+        </ul>
+      </div>
+    </section>
   </section>
 </template>
 
@@ -97,11 +120,10 @@ export default {
   name: 'IndexPage',
   mounted() {
     let tl = gsap.timeline()
-    tl.to('.services', {clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', delay: 3.5, duration: 1, ease: Expo.EaseOut})
-      .from('.service-card', {scale: .6, duration: 1}, '-=1')
+    tl.from('.service-card', {scale: .6, duration: 1})
   }
 }
 </script>
 <style>
-.services {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
+services {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
 </style>
