@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-gray-900 text-white py-5 px-5 md:px-12 md:py-7 sticky top-0 flex justify-between items-center"
+    class="bg-black text-white py-5 px-5 md:px-12 md:py-7 relative flex justify-between items-center z-50"
   >
     <div class="text-white text-2xl">
       Trends <span class="text-green-500">IT</span>
@@ -10,19 +10,19 @@
       <span class="block w-8 h-0.5 bg-gray-300 hover:bg-gray-100"></span>
     </div>
     <!-- Menu -->
-    <div class="lg:w-1/4 fixed top-0 right-0 bottom-0 left-0 md:left-auto bg-gray-800 opacity-100 flex flex-col items-center py-20" v-if="burger">
-      <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500 absolute top-5 right-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" @click="closeMenu()">
+    <div class="lg:w-1/4 fixed top-0 right-0 bottom-0 left-0 md:left-auto bg-black opacity-100 flex flex-col py-24" v-if="burger">
+      <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500 absolute top-8 right-12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" @click="closeMenu()">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
       </svg>
-      <ul>
+      <ul class="px-5 menu">
         <li class="mb-5">
-          <nuxt-link to="/" class="text-gray-400 text-2xl p-3 hover:text-green-300" exact-active-class="text-green-400">Home</nuxt-link>
+          <nuxt-link to="/" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">Home</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link to="/about" class="text-gray-400 text-2xl p-3 hover:text-green-300" exact-active-class="text-green-400">About</nuxt-link>
+          <nuxt-link to="/about" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">About</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link to="/page" class="text-gray-400 text-2xl p-3 hover:text-green-300" exact-active-class="text-green-400">Page</nuxt-link>
+          <nuxt-link to="/page" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">Page</nuxt-link>
         </li>
       </ul>
     </div>
@@ -30,6 +30,8 @@
 </template>
 
 <script>
+// import { gsap, Expo } from 'gsap'
+
 export default {
   data() {
     return {
@@ -37,7 +39,9 @@ export default {
     }
   },
   methods: {
-    openMenu() {
+    openMenu() {/*
+      let tl = gsap.timeline();
+      tl.from('.menu__link', {opacity: .6, y: -3}) */
       this.burger = true
     },
     closeMenu() {
@@ -46,7 +50,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
