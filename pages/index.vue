@@ -8,7 +8,7 @@
           <p>
             At Trends IT, we offer network services that will set your business up for success by giving you the monitoring you need to keep networks running smoothly, the structure you need to increase and maximize productivity, and the responsive service you require when issues arise.
             <br/><br/>
-            <nuxt-link to="/services" class="inline-block px-8 py-3 border-2 border-pink-600 text-pink-600 hover:bg-pink-600 hover:text-white">Learn More</nuxt-link>
+            <nuxt-link to="/services" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Learn More</nuxt-link>
           </p>
         </div>
         <div class="md:basis-2/4 md:w-2/4">

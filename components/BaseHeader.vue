@@ -3,7 +3,7 @@
     class="bg-black text-white py-5 px-5 md:px-12 md:py-7 relative flex justify-between items-center z-50"
   >
     <div class="text-white text-2xl">
-      Trends <span class="text-green-500">IT</span>
+      Trends <span class="text-pink-500">IT</span>
     </div>
     <div class="space-y-2 cursor-pointer" @click="openMenu()">
       <span class="block w-5 h-0.5 bg-gray-300 hover:bg-gray-100"></span>
@@ -16,13 +16,13 @@
       </svg>
       <ul class="px-5 menu">
         <li class="mb-5">
-          <nuxt-link to="/" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">Home</nuxt-link>
+          <nuxt-link to="/" class="menu__link text-gray-400 text-2xl p-3 hover:text-pink-300 ease-in-out duration-300" exact-active-class="text-pink-400">Home</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link to="/about" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">About</nuxt-link>
+          <nuxt-link to="/about" class="menu__link text-gray-400 text-2xl p-3 hover:text-pink-300 ease-in-out duration-300" exact-active-class="text-pink-400">About</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link to="/page" class="menu__link text-gray-400 text-2xl p-3 hover:text-green-300 ease-in-out duration-300" exact-active-class="text-green-400">Page</nuxt-link>
+          <nuxt-link to="/page" class="menu__link text-gray-400 text-2xl p-3 hover:text-pink-300 ease-in-out duration-300" exact-active-class="text-pink-400">Page</nuxt-link>
         </li>
       </ul>
     </div>
