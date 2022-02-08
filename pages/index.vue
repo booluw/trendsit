@@ -86,17 +86,17 @@
     </section>
     <section class="text-gray-800 bg-white md:flex mx-2 md:mx-12 mb-10 items-center justify-end">
       <div class="md:basis-1/2 md:w-1/2">
-        <img src="~/assets/img/busy-switch.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
+        <img src="~/assets/img/busy-switch.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
-        <h1 class="text-gray-800 text-4xl md:text-8xl font-bold mb-5">
+        <h1 class="text-gray-800 text-4xl md:text-8xl font-bold mb-5 slide-in-up">
           Our <br />
           Values
         </h1>
-        <p>
+        <p class="slide-in-left" delay>
           We have an extensive background of providing solutions for multi-site and multi-platform environments. As a result, we are an ideal partner to design new systems or upgrade an existing network.
         </p>
-        <ul class="list-disc mx-4 mt-5">
+        <ul class="list-disc mx-4 mt-5 slide-in-left">
           <li>Responsiveness</li>
           <li>Productivity</li>
           <li>Dedication</li>
@@ -121,9 +121,41 @@ export default {
   mounted() {
     let tl = gsap.timeline()
     tl.from('.service-card', {scale: .6, duration: 1})
+    gsap.utils.toArray('.slide-in-left').forEach((el, i) => {
+      gsap.to(el, {
+        scrollTrigger: {
+          trigger: el,
+        },
+        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+        duration: 2
+      })
+    })
+
+    gsap.utils.toArray('[delay]').forEach((el, i) => {
+      gsap.to(el, {
+        scrollTrigger: {
+          trigger: el
+        },
+        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+        duration: 1,
+        delay: 2
+      })
+    })
+
+    gsap.utils.toArray('.slide-in-up').forEach((el, i) => {
+      gsap.to(el, {
+        scrollTrigger: {
+          trigger: el
+        },
+        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
+        duration: 1
+      })
+    })
   }
 }
 </script>
 <style>
-services {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
+.slide-in-left {clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);}
+.slide-in-up {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
+.slide-in-right {clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);}
 </style>

@@ -8,9 +8,6 @@
       <div class="text-1xl md:text-2xl text-reveal mt-7 md:mt-20 md:w-3/4 px-2 md:px-0">
         Trends IT Services is a <i>network services</i> and sustainable energy installation and project service rendering company targeted at training and optimizing work operations in organizations.
       </div>
-      <svg class="svg-line" width="2" height="50" viewBox="0 0 1 96" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <line x1="0.5" x2="0.5" y2="96" stroke="white"/>
-      </svg>
     </div>
   </section>
 </template>
@@ -25,9 +22,6 @@ export default {
 
     tl.from('#hero-text', { scale: 0.9, duration: 1, opacity: 0, ease: Expo.EaseOut})
      .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', y: 0, stagger: .3, duration: 1 }, "-=2.5")
-     .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 0, 0 0)', y: -200, duration: .2, delay: .5})
-     .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', y: -100, stagger: .3, duration: .3, delay: .5})
-     .to('.svg-line', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', y: -50 })
   }
 }
 </script>
@@ -38,6 +32,4 @@ export default {
   transform: translateY(-3rem);
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
 }
-
-.svg-line {clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);}
 </style>
