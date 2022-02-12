@@ -258,7 +258,66 @@ export default {
         duration: 1
       })
     })
-  }
+  },
+  head () {
+    return {
+      title: "Home | Trends IT Services",
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: "Trends IT Services is a network services and sustainable energy installation and project service rendering company targeted at training and optimizing work operations in organizations."
+        },
+        {
+          property: 'og:title',
+          content: "Home | Trends IT Services"
+        },
+        {
+          property: 'og:description',
+          content: "Trends IT Services is a network services and sustainable energy installation and project service rendering company targeted at training and optimizing work operations in organizations."
+        },
+        {
+          property: 'og:url',
+          content: 'https://trendsitservices.com'
+        },
+        {
+          property: 'twitter:card',
+          content: 'summary_large_image'
+        }
+      ],
+      script: [{
+        type: 'application/ld+json',
+        json: {
+          '@context': 'https://schema.org',
+          '@type': 'Organisation',
+          name: "Trends IT Services",
+          url: 'https://trendsitservices.com',
+          legalName: "Trends IT Services",
+          email: 'info.trendsit@gmail.com',
+          description: '',
+          alternateName: [
+            "Trends IT Services",
+            "Trends IT",
+            "Trends IT Corp"
+          ],
+          address: {
+            '@type': 'PostalAddress',
+            addressLocality: 'Olusegun Obasanjo Way, Wuye.',
+            postalCode: '900288',
+            streetAddress: '2F2, Threshold Business Suite, Plot 976,'
+          },
+          contactPoint: {
+            contactType: 'PR',
+            email: 'info.trendsit@gmail.com',
+            telephone: '+2348037022330',
+            hoursAvaliable: [
+              'Mo-Fri 08:00-17:00'
+            ],
+          }
+        }
+      }]
+    }
+  },
 }
 </script>
 <style>
