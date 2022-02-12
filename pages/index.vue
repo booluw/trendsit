@@ -203,17 +203,17 @@
       <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 text-center">
         Our Clients
       </h1>
-      <p class="text-center md:mx-36 md:mb-10 text-xl">
+      <p class="text-center md:mx-36 mb-5 md:mb-10 text-xl">
         Our client reach spreads across Nigeria as we have been committed to serving government, private and international organizations over the years; some of our noble clients amongst a host of others includes federal and state academic institutions, agencies and hospitals.
       </p>
-      <div class="flex gap-9 justify-center">
+      <div class="flex flex-col md:flex-row gap-3 md:gap-9 justify-center">
         <img src="~/assets/img/FUTMinna-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FUTMinna's logo"/>
         <img src="~/assets/img/NCC-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="NCC's logo"/>
         <img src="~/assets/img/FMBN-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FMBN's logo"/>
         <img src="~/assets/img/NOH-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="National Orthopaedic Hospital Dala - Kano's logo"/>
         <img src="~/assets/img/YABATECH-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="YABATECH's logo"/>
       </div>
-      <div class="flex gap-9 justify-center mt-14">
+      <div class="hidden md:flex flex-row gap-9 justify-center mt-14">
         <img src="~/assets/img/BUK-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="BUK's logo"/>
         <img src="~/assets/img/FULafia-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="FULafia's logo"/>
         <img src="~/assets/img/EKSU-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="EKSU's logo"/>

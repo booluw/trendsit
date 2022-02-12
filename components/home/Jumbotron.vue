@@ -1,7 +1,7 @@
 <template>
   <section class="relative text-gray-300 text-center bg-clip-border bg-center bg-no-repeat bg-cover -z-50" :style="
     [{ backgroundImage: 'url(' + require('~/assets/img/golden-switch.jpg') + ')'}, {height: '80vh'}]" id="hero-text">
-    <div class="absolute inset-0 bg-opacity-70 bg-black py-52 flex flex-col items-center content-between">
+    <div class="absolute inset-0 bg-opacity-70 bg-black py-24 md:py-52 flex flex-col items-center content-between">
       <div class="text-2xl md:text-4xl uppercase font-bold text-reveal">
         Quality Technology Service you can trust
       </div>
