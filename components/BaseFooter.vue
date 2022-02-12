@@ -14,7 +14,7 @@
         <div class="gap-9 pt-4 hidden md:flex text-gray-500">&copy; {{ currentDate.getFullYear() }}</div>
       </div>
       <div class="md:basis-1/3 md:w-1/3 md:ml-24 mt-10 md:mt-0">
-        <h3 class="text-gray-800 text-2xl font-bold">Office addresses</h3>
+        <h3 class="text-gray-700 text-2xl font-bold">Office addresses</h3>
         <div class="mt-5">
           <h3 class="inline text-gray-600 font-semibold">Niger State:</h3>
           <p class="inline">
@@ -38,6 +38,55 @@
           <a href="https://instagram.com/trenditservices" class="text-white hover:text-pink-600 ease-in-out block" target="_blank">instagram</a>
           <a href="https://twitter.com/@trenditservices" class="text-white hover:text-pink-600 ease-in-out block" target="_blank">twitter</a>
         </div>
+      </div>
+      <div class="md:basis-1/3 md:w-1/3 md:ml-24 mt-10 md:mt-0 hidden md:block">
+        <h3 class="text-gray-700 text-2xl font-bold">Send a message</h3>
+        <form
+          class="mt-4"
+          name="contact"
+          method="POST"
+          action="/"
+          data-netlify="true"
+        >
+          <label for="email">
+            <div class="mb-2">Your Email</div>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              class="md:p-3 rounded-sm border-b-2 bg-opacity-30 bg-white focus:outline-none focus:border-pink-600 w-full"
+              placeholder="JohnDoe@company.com"
+              required
+            />
+          </label>
+          <label for="fullname" class="block mt-5">
+            <div class="mb-2">Your Full Name</div>
+            <input
+              id="fullname"
+              name="fullname"
+              type="text"
+              class="md:p-3 rounded-sm border-b-2 bg-opacity-30 bg-white focus:outline-none focus:border-pink-600 w-full"
+              placeholder="John Doe"
+              required
+            />
+          </label>
+          <label for="message" class="block mt-5">
+            <div class="mb-2">Your Message</div>
+            <textarea
+              id="message"
+              name="message"
+              class="md:p-3 rounded-sm border-b-2 bg-opacity-30 bg-white focus:outline-none focus:border-pink-600 w-full"
+              placeholder="Lorem Ipsum"
+              required
+            ></textarea>
+          </label>
+          <button
+            type="submit"
+            class="mt-4 p-4 bg-pink-600 w-full"
+          >
+            Send
+          </button>
+        </form>
       </div>
       <div class="mt-10 md:hidden block text-center text-gray-500">&copy; {{ currentDate.getFullYear() }}</div>
     </div>
