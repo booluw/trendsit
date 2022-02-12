@@ -39,7 +39,7 @@
           <a href="https://twitter.com/@trenditservices" class="text-white hover:text-pink-600 ease-in-out block" target="_blank">twitter</a>
         </div>
       </div>
-      <div class="md:basis-1/3 md:w-1/3 md:ml-24 mt-10 md:mt-0 hidden md:block">
+      <!--- div class="md:basis-1/3 md:w-1/3 md:ml-24 mt-10 md:mt-0 hidden md:block">
         <h3 class="text-gray-700 text-2xl font-bold">Send a message</h3>
         <form
           class="mt-4"
@@ -87,7 +87,7 @@
             Send
           </button>
         </form>
-      </div>
+      </div --->
       <div class="mt-10 md:hidden block text-center text-gray-500">&copy; {{ currentDate.getFullYear() }}</div>
     </div>
   </footer>
