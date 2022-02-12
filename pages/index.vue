@@ -11,12 +11,12 @@
           <p>
             At Trends IT, we offer network services that will set your business up for success by giving you the monitoring you need to keep networks running smoothly, the structure you need to increase and maximize productivity, and the responsive service you require when issues arise.
             <br/><br/>
-            <nuxt-link to="/services" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Learn More</nuxt-link>
+            <nuxt-link :to="{ path: '/',hash:'#services'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Learn More</nuxt-link>
           </p>
         </div>
         <div class="md:basis-2/4 md:w-2/4">
           <div class="grid grid-cols-2 gap-1">
-            <div class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">              
+            <nuxt-link :to="{ path: '/',hash:'#wifi'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">              
               <svg class="w-12 h-12 md:w-20 md:h-20"  x="0px" y="0px" viewBox="0 0 54.908 54.908" style="enable-background:new 0 0 54.908 54.908;" xml:space="preserve">
               <g>
                 <path d="M54.615,19.123c-7.243-7.244-16.89-11.233-27.161-11.233S7.537,11.878,0.293,19.123c-0.391,0.391-0.391,1.023,0,1.414
@@ -34,8 +34,8 @@
               </g>
               </svg>
               <h3 class="text-gray-200 md:text-lg text-center mt-5">Wireless Network Services</h3>
-            </div>
-            <div class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">        
+            </nuxt-link>
+            <nuxt-link :to="{ path: '/',hash:'#network-design'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">        
               <svg version="1.1"  x="0px" y="0px" class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
                 <path id="server--operating-systems_1_" d="M29,3.5C29,3.776,28.776,4,28.5,4S28,3.776,28,3.5S28.224,3,28.5,3S29,3.224,29,3.5z
                   M26.5,3C26.224,3,26,3.224,26,3.5S26.224,4,26.5,4S27,3.776,27,3.5S26.776,3,26.5,3z M24.5,3C24.224,3,24,3.224,24,3.5
@@ -64,8 +64,8 @@
                   C19.86,19.128,18.128,20.86,16,20.86z M16,13.86c-1.731,0-3.14,1.409-3.14,3.14s1.409,3.14,3.14,3.14s3.14-1.408,3.14-3.14 S17.731,13.86,16,13.86z" fill="#db2777"/>
               </svg>
               <h3 class="text-gray-200 md:text-lg text-center mt-5">Custom Network Design</h3>
-            </div>
-            <div class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">                      
+            </nuxt-link>
+            <nuxt-link :to="{ path: '/',hash:'#sustainable-energy'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">                      
               <svg class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 56 56" id="Layer_1" style="enable-background:new 0 0 56 56;">
                 <g>
                   <path d="M52,50.4h-5.3V23.7l4.3,3c0.3,0.2,0.7,0.2,1,0.1c0.3-0.2,0.5-0.5,0.5-0.9V21c0-0.3-0.2-0.6-0.4-0.8L28.3,3.8   c-0.3-0.2-0.8-0.2-1.1,0L3.4,20.4C3.2,20.6,3,20.9,3,21.2v5.4c0,0.4,0.2,0.7,0.5,0.9c0.1,0.1,0.3,0.1,0.5,0.1   c0.2,0,0.4-0.1,0.6-0.2L9.3,24v26.4H4c-0.6,0-1,0.4-1,1s0.4,1,1,1h6.3h35.4H52c0.6,0,1-0.4,1-1S52.6,50.4,52,50.4z M5,21.7   L27.8,5.8l22.8,15.7V24l-22-15.3c-0.3-0.2-0.8-0.2-1.1,0L5,24.6V21.7z M11.3,50.4V22.6L28,10.8l16.7,11.6v28H11.3z" fill="#db2777"/>
@@ -73,13 +73,13 @@
                 </g>
               </svg>
               <h3 class="text-gray-200 md:text-lg text-center mt-5">Sustainable Energy Support</h3>
-            </div>
-            <div class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">
+            </nuxt-link>
+            <nuxt-link :to="{ path: '/',hash:'#systems-analysis'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">
               <svg class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
                 <path id="systems-devops--release_1_" d="M23.86,25h-0.72v-8.14l-3.449,3.397l-0.506-0.514l4.315-4.249l4.314,4.249l-0.506,0.514 L23.86,16.86V25z M16.181,29.689L4.36,22.793V9H3.64v14c0,0.128,0.068,0.246,0.179,0.311l12,7L16.181,29.689z M28.36,28v-5h-0.72 v4.64h-8.28V23h-0.72v5c0,0.199,0.161,0.36,0.36,0.36h9C28.199,28.36,28.36,28.199,28.36,28z M8.36,6H7.64v10h0.72V6z M28.36,9 c0-0.128-0.068-0.247-0.179-0.311l-12-7c-0.111-0.065-0.25-0.065-0.362,0l-4,2.325c-0.111,0.064-0.179,0.183-0.179,0.311V13h0.72 V4.532L16,2.417l11.64,6.79V14h0.721L28.36,9L28.36,9z" fill="#db2777"/>
               </svg>
               <h3 class="text-gray-200 md:text-lg text-center mt-5">Systems Analysis, Integration and Upgrade</h3>
-            </div>
+            </nuxt-link>
           </div>
         </div>
       </div>
@@ -96,12 +96,128 @@
         <p class="slide-in-left" delay>
           We have an extensive background of providing solutions for multi-site and multi-platform environments. As a result, we are an ideal partner to design new systems or upgrade an existing network.
         </p>
-        <ul class="list-disc mx-4 mt-5 slide-in-left">
-          <li>Responsiveness</li>
-          <li>Productivity</li>
-          <li>Dedication</li>
-          <li>Excellence</li>
+        
+        <ul class="list-disc slide-in-left text-gray-500">
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">Responsiveness</li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">Productivity</li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">Dedication</li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">Excellence</li>
         </ul>
+      </div>
+    </section>
+    <div id="services"></div>
+    <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="wifi">
+      <div class="md:basis-1/2 md:w-1/2 order-2">
+        <img src="~/assets/img/wireless-network.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
+        <h3 class="text-md text-gray-700">Service:</h3>
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+          Wireless Network Services
+        </h1>
+        <p class="slide-in-left" delay>
+          Alongside traditional wired networks, Trends IT expert project teams also undertake a wide range of wireless network projects. Tailored to an organisation’s needs, our wireless networks ensure complete and seamless connectivity for staff as they move around premises. Wireless networks can also be partitioned to ensure that only certain groups of users gain access to areas of a network. This solution is particularly relevant in the education sector. We undertake all aspects of design, install and provisioning for wireless networks.
+        </p>
+      </div>
+    </section>
+    <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="network-design">
+      <div class="md:basis-1/2 md:w-1/2">
+        <img src="~/assets/img/custom-network-design.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
+        <h3 class="text-md text-gray-400">Service:</h3>
+        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+          Custom Network Design
+        </h1>
+        <p class="slide-in-left" delay>
+          Your business is unique, so you will need business solutions that fit your needs. Whether you are just looking for a network to connect your printers or are in need of a more complex, fault-tolerant network that provides protection for your business, Trends IT can custom design a network that addresses exactly what you are looking for. We can;
+        </p>
+        <ul class="list-disc slide-in-left text-gray-500">
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Assess the needs of your business and determine how many systems need to be connected to a network.
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Discuss the preferences you have for your network and the capabilities you would like
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Design, configure, install, cable, and support your new network.
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
+      <div class="md:basis-1/2 md:w-1/2 order-2">
+        <img src="~/assets/img/sustainable-energy.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
+        <h3 class="text-md text-gray-700">Service:</h3>
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+          Sustainable Energy Support
+        </h1>
+        <p class="slide-in-left">
+          We organize special on-demand training for individual or corporate bodies on networking and solar/inverter installation.
+        </p>
+        <p class="mt-3 slide-in-left" delay>
+          We offer a wide range of solar power services apart from trainings which includes;
+        </p>
+        <ul class="list-disc slide-in-left text-gray-500">
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Solar powered street light installations
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Solar powered traffic lights
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Office and commercial system solution
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Solar Home System (SHS)
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Maintenance
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Technical trainings
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="systems-analysis">
+      <div class="md:basis-1/2 md:w-1/2">
+        <img src="~/assets/img/system-analysis.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
+        <h3 class="text-md text-gray-400">Service:</h3>
+        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+          Systems Analysis, Integration and Upgrade
+        </h1>
+        <p class="slide-in-left" delay>
+          To ensure seamless operations and the maximum return on investment, your network must perform optimally. Our IT support technicians can assess your current network to make sure all of your business’s needs are being met. If we uncover any inefficiencies, we’ll make recommendations on upgrades or integrations you can make to maximize your network’s potential.
+        </p>
+        <p class="mt-2 slide-in-left" delay>
+          If we think you need to invest in new hardware, we’ll explain why and what hardware you need. If you simply need to make better use of what you have, we can help improve your network’s performance. We have extensive experience with networks and are dedicated to helping your business run as smoothly as possible.
+        </p>
+      </div>
+    </section>
+    <section class="text-gray-800 bg-white px-2 md:px-12 py-5 md:py-20 mb-10">
+      <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 text-center">
+        Our Clients
+      </h1>
+      <p class="text-center md:mx-36 md:mb-10 text-xl">
+        Our client reach spreads across Nigeria as we have been committed to serving government, private and international organizations over the years; some of our noble clients amongst a host of others includes federal and state academic institutions, agencies and hospitals.
+      </p>
+      <div class="flex gap-9 justify-center">
+        <img src="~/assets/img/FUTMinna-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FUTMinna's logo"/>
+        <img src="~/assets/img/NCC-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="NCC's logo"/>
+        <img src="~/assets/img/FMBN-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FMBN's logo"/>
+        <img src="~/assets/img/NOH-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="National Orthopaedic Hospital Dala - Kano's logo"/>
+        <img src="~/assets/img/YABATECH-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="YABATECH's logo"/>
+      </div>
+      <div class="flex gap-9 justify-center mt-14">
+        <img src="~/assets/img/BUK-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="BUK's logo"/>
+        <img src="~/assets/img/FULafia-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="FULafia's logo"/>
+        <img src="~/assets/img/EKSU-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="EKSU's logo"/>
+        <img src="~/assets/img/FUDutsinma-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FUDutsinma's logo"/>
       </div>
     </section>
   </section>
@@ -128,17 +244,6 @@ export default {
         },
         clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
         duration: 2
-      })
-    })
-
-    gsap.utils.toArray('[delay]').forEach((el, i) => {
-      gsap.to(el, {
-        scrollTrigger: {
-          trigger: el
-        },
-        clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)',
-        duration: 1,
-        delay: 2
       })
     })
 
