@@ -13,7 +13,7 @@
         </div>
         <div class="gap-9 pt-4 hidden md:flex text-gray-500">&copy; {{ currentDate.getFullYear() }}</div>
       </div>
-      <div class="md:basis-1/3 md:w-1/3 md:ml-14 mt-10 md:mt-0">
+      <div class="md:basis-1/3 md:w-1/3 md:ml-24 mt-10 md:mt-0">
         <h3 class="text-gray-800 text-2xl font-bold">Office addresses</h3>
         <div class="mt-5">
           <h3 class="inline text-gray-600 font-semibold">Niger State:</h3>

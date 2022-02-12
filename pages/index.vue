@@ -84,6 +84,7 @@
         </div>
       </div>
     </section>
+    <div id="vision"></div>
     <section class="text-gray-800 bg-white md:flex mx-2 md:mx-12 mb-10 items-center justify-end">
       <div class="md:basis-1/2 md:w-1/2">
         <img src="~/assets/img/busy-switch.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
@@ -199,6 +200,7 @@
         </p>
       </div>
     </section>
+    <div id="clients"></div>
     <section class="text-gray-800 bg-white px-2 md:px-12 py-5 md:py-20 mb-10">
       <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 text-center">
         Our Clients

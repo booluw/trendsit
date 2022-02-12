@@ -17,11 +17,20 @@ import { gsap, Expo } from 'gsap'
 
 export default {
   name: 'Jumbotron',
+  data() {
+    return {
+      images: ['slide-1', 'slide-2', 'golden-switch']
+    }
+  },
   mounted() {
     let tl = gsap.timeline();
 
     tl.from('#hero-text', { scale: 0.9, duration: 1, opacity: 0, ease: Expo.EaseOut})
      .to('.text-reveal', { clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0 100%)', y: 0, stagger: .3, duration: 1 }, "-=2.5")
+
+    /*this.image = this.images.forEach(img => {
+      return img
+    }); */
   }
 }
 </script>
