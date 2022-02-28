@@ -6,7 +6,7 @@
         Quality Technology Service you can trust
       </div>
       <div class="text-1xl md:text-2xl text-reveal mt-20 md:mt-20 md:w-3/4 px-2 md:px-0">
-        Trends IT Services is a <i>network services</i> and sustainable energy installation and project service rendering company targeted at training and optimizing work operations in organizations.
+        We make your business more efficient by providing you with cutting-edge networking, I.T security, and renewable energy services targeted at optimizing work operations in your organization.
       </div>
     </div>
   </section>

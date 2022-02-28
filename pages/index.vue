@@ -33,7 +33,7 @@
                   S29.964,45.019,27.454,45.019z" fill="#db2777"/>
               </g>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Wireless Network Services</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">Internet Connectivity</h3>
             </nuxt-link>
             <nuxt-link :to="{ path: '/',hash:'#network-design'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">        
               <svg version="1.1"  x="0px" y="0px" class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
@@ -63,7 +63,7 @@
                   L14.86,24.64z M16,20.86c-2.128,0-3.86-1.732-3.86-3.86s1.731-3.86,3.86-3.86c2.128,0,3.86,1.731,3.86,3.86
                   C19.86,19.128,18.128,20.86,16,20.86z M16,13.86c-1.731,0-3.14,1.409-3.14,3.14s1.409,3.14,3.14,3.14s3.14-1.408,3.14-3.14 S17.731,13.86,16,13.86z" fill="#db2777"/>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Custom Network Design</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">Custom Network Design and Integration</h3>
             </nuxt-link>
             <nuxt-link :to="{ path: '/',hash:'#sustainable-energy'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">                      
               <svg class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 56 56" id="Layer_1" style="enable-background:new 0 0 56 56;">
@@ -72,13 +72,13 @@
                   <path d="M39.8,29.4c-2.8-0.6-8.2-0.4-10.7,4.3c-4-6.8-13-4.9-13.1-4.8c-0.4,0.1-0.8,0.5-0.8,0.9c-0.2,5.7,1.3,9.8,4.3,12.3   c2.4,1.9,5.3,2.4,7.5,2.4c1.8,0,3.1-0.3,3.2-0.3c0,0,0.1,0,0.1,0c0,0,0.1,0,0.1,0c0.1,0,0.2-0.1,0.3-0.2c0,0,0,0,0,0c0,0,0,0,0,0   c0.2-0.2,0.3-0.4,0.3-0.6c0-0.4,0-0.8,0-1.1c0,0,0,0,0.1,0c1.9,0,4.5-0.4,6.5-2.3c2.1-2,3.1-5.2,3-9.4   C40.6,29.9,40.3,29.5,39.8,29.4z M20.8,40.5c-2.4-1.9-3.6-5.2-3.6-9.8c2.3-0.3,8.8-0.6,11,5.9c0,0,0,0,0,0c0,0,0,0,0,0   c0.3,0.9,0.6,2,0.7,3.2c0,0,0,0,0,0c0,0,0,0,0,0c0,0.3,0.1,0.6,0.1,0.9l-7.8-7.5c-0.4-0.4-1-0.4-1.4,0c-0.4,0.4-0.4,1,0,1.4l8,7.7   C26,42.5,23.1,42.3,20.8,40.5z M36.2,38.3c-1.6,1.5-3.7,1.8-5.2,1.8l5.9-5.7c0.4-0.4,0.4-1,0-1.4c-0.4-0.4-1-0.4-1.4,0l-4.9,4.7   c-0.1-0.5-0.2-1-0.4-1.5c1.5-5.2,6.4-5.2,8.4-5C38.6,34.5,37.8,36.8,36.2,38.3z" fill="#db2777"/>
                 </g>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Sustainable Energy Support</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">Renewable Energy</h3>
             </nuxt-link>
             <nuxt-link :to="{ path: '/',hash:'#systems-analysis'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">
               <svg class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
                 <path id="systems-devops--release_1_" d="M23.86,25h-0.72v-8.14l-3.449,3.397l-0.506-0.514l4.315-4.249l4.314,4.249l-0.506,0.514 L23.86,16.86V25z M16.181,29.689L4.36,22.793V9H3.64v14c0,0.128,0.068,0.246,0.179,0.311l12,7L16.181,29.689z M28.36,28v-5h-0.72 v4.64h-8.28V23h-0.72v5c0,0.199,0.161,0.36,0.36,0.36h9C28.199,28.36,28.36,28.199,28.36,28z M8.36,6H7.64v10h0.72V6z M28.36,9 c0-0.128-0.068-0.247-0.179-0.311l-12-7c-0.111-0.065-0.25-0.065-0.362,0l-4,2.325c-0.111,0.064-0.179,0.183-0.179,0.311V13h0.72 V4.532L16,2.417l11.64,6.79V14h0.721L28.36,9L28.36,9z" fill="#db2777"/>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Systems Analysis, Integration and Upgrade</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">IT Security Solutions</h3>
             </nuxt-link>
           </div>
         </div>
@@ -114,10 +114,12 @@
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
         <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
-          Wireless Network Services
+          Internet & Networking
         </h1>
         <p class="slide-in-left" delay>
-          Alongside traditional wired networks, Trends IT expert project teams also undertake a wide range of wireless network projects. Tailored to an organisation’s needs, our wireless networks ensure complete and seamless connectivity for staff as they move around premises. Wireless networks can also be partitioned to ensure that only certain groups of users gain access to areas of a network. This solution is particularly relevant in the education sector. We undertake all aspects of design, install and provisioning for wireless networks.
+          Whether you need a VSAT internet connection, Microwave internet connection or Fibre optic internet connection, our team can help get you connected fast. We have a solution that will work for you. So why wait? Contact us today to get started!
+          <br/><br/>
+          <nuxt-link :to="{ path: '/services',hash:'#internet-and-network'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
         </p>
       </div>
     </section>
@@ -128,22 +130,33 @@
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
         <h3 class="text-md text-gray-400">Service:</h3>
         <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
-          Custom Network Design
+          Custom Network Design and Integration
         </h1>
         <p class="slide-in-left" delay>
-          Your business is unique, so you will need business solutions that fit your needs. Whether you are just looking for a network to connect your printers or are in need of a more complex, fault-tolerant network that provides protection for your business, Trends IT can custom design a network that addresses exactly what you are looking for. We can;
+          We understand that your business is unique and has a variety of requirements. That's why we offer customized network solutions to meet all those needs!
         </p>
         <ul class="list-disc slide-in-left text-gray-500">
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
-            Assess the needs of your business and determine how many systems need to be connected to a network.
+            Local Area Network (LAN)
           </li>
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
-            Discuss the preferences you have for your network and the capabilities you would like
+            Wireless LAN (WLAN)
           </li>
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
-            Design, configure, install, cable, and support your new network.
+            SOHO and SMB Wireless Networking Solutions
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Campus Network
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            VoIP
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Teleconference
           </li>
         </ul>
+        <br/><br/>
+        <nuxt-link :to="{ path: '/services',hash:'#custom-network-design'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
@@ -153,13 +166,10 @@
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
         <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
-          Sustainable Energy Support
+          Renewable Energy
         </h1>
         <p class="slide-in-left">
-          We organize special on-demand training for individual or corporate bodies on networking and solar/inverter installation.
-        </p>
-        <p class="mt-3 slide-in-left" delay>
-          We offer a wide range of solar power services apart from trainings which includes;
+          We offer a wide range of energy solutions tailored to your usage and logistics needs.
         </p>
         <ul class="list-disc slide-in-left text-gray-500">
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
@@ -175,12 +185,11 @@
             Solar Home System (SHS)
           </li>
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
-            Maintenance
-          </li>
-          <li class="pl-5 mt-3 border-l-2 border-gray-500">
-            Technical trainings
+            Service support/maintenance
           </li>
         </ul>
+        <br/><br/>
+        <nuxt-link :to="{ path: '/services',hash:'#renewable-energy'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="systems-analysis">
@@ -190,14 +199,45 @@
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
         <h3 class="text-md text-gray-400">Service:</h3>
         <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
-          Systems Analysis, Integration and Upgrade
+          IT Security
         </h1>
         <p class="slide-in-left" delay>
-          To ensure seamless operations and the maximum return on investment, your network must perform optimally. Our IT support technicians can assess your current network to make sure all of your business’s needs are being met. If we uncover any inefficiencies, we’ll make recommendations on upgrades or integrations you can make to maximize your network’s potential.
+          Our security solutions helps keep your personal and organization’s connected ecosystem safe. We provide
         </p>
-        <p class="mt-2 slide-in-left" delay>
-          If we think you need to invest in new hardware, we’ll explain why and what hardware you need. If you simply need to make better use of what you have, we can help improve your network’s performance. We have extensive experience with networks and are dedicated to helping your business run as smoothly as possible.
+        <ul class="list-disc slide-in-left text-gray-500">
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            CCTV Installation
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Smart Home Security (access point, smart locks, etc.)
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Data Protection, Network Forensics and Backup Solutions
+          </li>
+          <li class="pl-5 mt-3 border-l-2 border-gray-500">
+            Car Tracking and Fleet Management
+          </li>
+        </ul>
+        <br/><br/>
+        <nuxt-link :to="{ path: '/services',hash:'#it-security'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
+      </div>
+    </section>
+    <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
+      <div class="md:basis-1/2 md:w-1/2 order-2">
+        <img src="~/assets/img/it-training.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+      </div>
+      <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
+        <h3 class="text-md text-gray-700">Service:</h3>
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+          Training & <br />Support
+        </h1>
+        <p class="slide-in-left">
+          We offer after-sales service support and training, and also organize special on-demand trainings on any of our listed services above.
+          <br />
+          Our team of experts will take you by the hand and train you from start to finish, we are here to help you.
         </p>
+        <br/><br/>
+        <nuxt-link :to="{ path: '/services',hash:'#training'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <div id="clients"></div>
