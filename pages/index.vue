@@ -3,7 +3,7 @@
     <jumbotron />
     <section class="services -mt-24 relative bg-gray-800 mx-2 md:mx-12 mb-10 text-white rounded-lg overflow-hidden">
       <div class="flex flex-col md:flex-row">
-        <div class="md:basis-2/4 md:w-2/4 py-10 px-5 md:py-20 md:pl-20 md:pr-10 flex flex-col justify-center">
+        <div class="md:basis-2/4 md:w-2/4 py-10 px-5 md:py-10 md:pl-20 md:pr-10 flex flex-col justify-center">
           <h1 class="text-gray-500 text-4xl md:text-8xl font-bold mb-5">
             Our<br />
             Services
@@ -119,7 +119,7 @@
         <p class="slide-in-left" delay>
           Whether you need a VSAT internet connection, Microwave internet connection or Fibre optic internet connection, our team can help get you connected fast. We have a solution that will work for you. So why wait? Contact us today to get started!
           <br/><br/>
-          <nuxt-link :to="{ path: '/services',hash:'#internet-and-network'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
+          <nuxt-link :to="{ path: '/services/internet-connectivity'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
         </p>
       </div>
     </section>
@@ -156,7 +156,7 @@
           </li>
         </ul>
         <br/><br/>
-        <nuxt-link :to="{ path: '/services',hash:'#custom-network-design'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
+        <nuxt-link :to="{ path: '/services/custom-network-design'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
@@ -188,8 +188,6 @@
             Service support/maintenance
           </li>
         </ul>
-        <br/><br/>
-        <nuxt-link :to="{ path: '/services',hash:'#renewable-energy'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="systems-analysis">
@@ -218,8 +216,6 @@
             Car Tracking and Fleet Management
           </li>
         </ul>
-        <br/><br/>
-        <nuxt-link :to="{ path: '/services',hash:'#it-security'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
@@ -236,8 +232,6 @@
           <br />
           Our team of experts will take you by the hand and train you from start to finish, we are here to help you.
         </p>
-        <br/><br/>
-        <nuxt-link :to="{ path: '/services',hash:'#training'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <div id="clients"></div>

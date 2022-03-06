@@ -2,6 +2,7 @@
   <div>
     <base-header />
     <router-view />
+    <div id="about-us"></div>
     <base-footer />
   </div>
 </template>
