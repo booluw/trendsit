@@ -130,7 +130,7 @@
         </p>
       </div>
       <div class="md:2/5">
-        <img src="~/assets/img/teleconference1.jpg" class="md:w-3/4 mt-10 md:mt-0 h-auto rounded-2xl shadow-md object-contain block mx-auto" />
+        <img src="~/assets/img/Teleconference1.jpg" class="md:w-3/4 mt-10 md:mt-0 h-auto rounded-2xl shadow-md object-contain block mx-auto" />
       </div>
     </section>
   </div>
