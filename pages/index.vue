@@ -33,7 +33,7 @@
                   S29.964,45.019,27.454,45.019z" fill="#db2777"/>
               </g>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Internet Connectivity</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">Internet & Networking</h3>
             </nuxt-link>
             <nuxt-link :to="{ path: '/',hash:'#network-design'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">        
               <svg version="1.1"  x="0px" y="0px" class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
@@ -216,6 +216,8 @@
             Car Tracking and Fleet Management
           </li>
         </ul>
+        <br/><br/>
+        <nuxt-link :to="{ path: '/services/it-security'}" class="inline-block px-8 py-3 border-2 border-pink-700 text-pink-700 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
       </div>
     </section>
     <section class="text-white bg-black md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
