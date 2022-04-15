@@ -33,7 +33,7 @@
                   S29.964,45.019,27.454,45.019z" fill="#db2777"/>
               </g>
               </svg>
-              <h3 class="text-gray-200 md:text-lg text-center mt-5">Internet & Networking</h3>
+              <h3 class="text-gray-200 md:text-lg text-center mt-5">Internet Connectivity</h3>
             </nuxt-link>
             <nuxt-link :to="{ path: '/',hash:'#network-design'}" class="service-card box-border px-2 py-4 md:px-14 md:py-14 bg-gray-700 flex flex-col items-center justify-center hover:bg-gray-600 cursor-pointer">        
               <svg version="1.1"  x="0px" y="0px" class="w-12 h-12 md:w-20 md:h-20" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
@@ -114,7 +114,7 @@
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
         <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
-          Internet & Networking
+          Internet Connectivity
         </h1>
         <p class="slide-in-left" delay>
           Whether you need a VSAT internet connection, Microwave internet connection or Fibre optic internet connection, our team can help get you connected fast. We have a solution that will work for you. So why wait? Contact us today to get started!

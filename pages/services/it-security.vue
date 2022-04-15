@@ -76,7 +76,25 @@
 export default {
   data() {
     return {
-      currentImg: 'cctv.jpg'
+      images: ['cctv.jpg', 'products-2.jpg', 'home-security.jpg'],
+      timer: null,
+      currentIndex: 0
+    }
+  },
+  computed: {
+    currentImg () {
+      return (this.images[Math.abs(this.currentIndex) % this.images.length])
+    }
+  },
+  mounted() {
+    this.slideStart()
+  },
+  methods: {
+    slideStart () {
+      this.timer = setInterval(this.next, 5000)
+    },
+    next () {
+      this.currentIndex += 1
     }
   },
   head () {

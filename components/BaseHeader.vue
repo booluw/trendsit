@@ -10,7 +10,7 @@
         <nuxt-link to="/" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Home</nuxt-link>
         <nuxt-link :to="{ path: '',hash:'#about-us'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">About Us</nuxt-link>
         <nuxt-link :to="{ path: '/',hash:'#clients'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Clients</nuxt-link>
-        <nuxt-link :to="{ path: '/',hash:'#services'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Services</nuxt-link>
+        <nuxt-link :to="{ path: '/services'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Services</nuxt-link>
         <nuxt-link to="/products" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Products</nuxt-link>
       </nav>
       <div class="md:hidden space-y-2 cursor-pointer" @click="openMenu()">

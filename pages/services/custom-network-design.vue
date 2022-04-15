@@ -140,7 +140,25 @@
 export default {
   data() {
     return {
-      currentImg: 'services.jpg'
+      images: ['services.jpg','Teleconference1.jpg','VoIP.jpg','wireless-network.jpg','LAN.jpg'],
+      timer: null,
+      currentIndex: 0
+    }
+  },
+  mounted() {
+    this.slideStart()
+  },
+  computed: {
+    currentImg () {
+      return (this.images[Math.abs(this.currentIndex) % this.images.length])
+    }
+  },
+  methods: {
+    slideStart () {
+      this.timer = setInterval(this.next, 5000)
+    },
+    next () {
+      this.currentIndex += 1
     }
   },
   head () {

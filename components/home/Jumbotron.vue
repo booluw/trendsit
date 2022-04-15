@@ -1,6 +1,6 @@
 <template>
   <section class="relative text-gray-300 text-center bg-clip-border bg-center bg-no-repeat bg-cover -z-50" :style="
-    [{ backgroundImage: 'url(' + require(`~/assets/img/jumbo/${currentImg}`) + ')'}, {height: '80vh'}]" id="hero-text">
+    [{ backgroundImage: 'url(' + require(`~/assets/img/${currentImg}`) + ')'}, {height: '80vh'}]" id="hero-text">
     <div class="absolute inset-0 bg-opacity-70 bg-black py-14 md:py-52 flex flex-col items-center content-between">
       <div class="text-2xl md:text-4xl uppercase font-bold text-reveal">
         Quality Technology Service you can trust
@@ -20,11 +20,15 @@ export default {
   data() {
     return {
       images: [
-        'slide-1.jpg',
-        'golden-switch.jpg',
-        'slide-3.jpg',
-        'big-switch.jpg',
-        'slide-2.jpg'
+        'jumbo/slide-1.jpg',
+        'jumbo/golden-switch.jpg',
+        'jumbo/slide-3.jpg',
+        'jumbo/big-switch.jpg',
+        'jumbo/slide-2.jpg',
+        'it-training.jpg',
+        'Microwave.jpg',
+        'services.jpg',
+        'VoIP.jpg'
       ],
       timer: null,
       currentIndex: 0
