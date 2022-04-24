@@ -11,14 +11,14 @@
     
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="wifi">
       <div class="md:basis-1/2 md:w-1/2 order-2">
-        <img src="~/assets/img/wireless-network.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+        <img src="~/assets/img/wireless-network.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
-        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5">
           Internet Connectivity
         </h1>
-        <p class="slide-in-left" delay>
+        <p>
           Whether you need a VSAT internet connection, Microwave internet connection or Fibre optic internet connection, our team can help get you connected fast. We have a solution that will work for you. So why wait? Contact us today to get started!
           <br/><br/>
           <nuxt-link :to="{ path: '/services/internet-connectivity'}" class="inline-block px-8 py-3 border-2 border-pink-400 text-pink-400 hover:bg-pink-700 hover:text-white hover:border-pink-700">Click To Learn More</nuxt-link>
@@ -27,17 +27,17 @@
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="network-design">
       <div class="md:basis-1/2 md:w-1/2">
-        <img src="~/assets/img/custom-network-design.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+        <img src="~/assets/img/custom-network-design.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
         <h3 class="text-md text-gray-400">Service:</h3>
-        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5">
           Custom Network Design and Integration
         </h1>
-        <p class="slide-in-left" delay>
+        <p>
           We understand that your business is unique and has a variety of requirements. That's why we offer customized network solutions to meet all those needs!
         </p>
-        <ul class="list-disc slide-in-left text-gray-500">
+        <ul class="list-disc text-gray-500">
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
             Local Area Network (LAN)
           </li>
@@ -63,17 +63,17 @@
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
       <div class="md:basis-1/2 md:w-1/2 order-2">
-        <img src="~/assets/img/sustainable-energy.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+        <img src="~/assets/img/sustainable-energy.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
-        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5">
           Renewable Energy
         </h1>
-        <p class="slide-in-left">
+        <p>
           We offer a wide range of energy solutions tailored to your usage and logistics needs.
         </p>
-        <ul class="list-disc slide-in-left text-gray-500">
+        <ul class="list-disc text-gray-500">
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
             Solar powered street light installations
           </li>
@@ -94,17 +94,18 @@
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="systems-analysis">
       <div class="md:basis-1/2 md:w-1/2">
-        <img src="~/assets/img/system-analysis.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+        <img src="~/assets/img/system-analysis.jpg" class="h-full w-full rounded-2xl shadow-md object-contain
+        " />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14">
         <h3 class="text-md text-gray-400">Service:</h3>
-        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+        <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5">
           IT Security
         </h1>
-        <p class="slide-in-left" delay>
+        <p>
           Our security solutions helps keep your personal and organization’s connected ecosystem safe. We provide
         </p>
-        <ul class="list-disc slide-in-left text-gray-500">
+        <ul class="list-disc text-gray-500">
           <li class="pl-5 mt-3 border-l-2 border-gray-500">
             CCTV Installation
           </li>
@@ -124,14 +125,14 @@
     </section>
     <section class="text-gray-800 bg-white md:flex px-2 md:px-12 py-5 md:py-20 mb-10 items-center justify-end" id="sustainable-energy">
       <div class="md:basis-1/2 md:w-1/2 order-2">
-        <img src="~/assets/img/it-training.jpg" class="h-full w-full rounded-2xl shadow-md object-contain slide-in-left" />
+        <img src="~/assets/img/it-training.jpg" class="h-full w-full rounded-2xl shadow-md object-contain" />
       </div>
       <div class="md:basis-1/2 md:w-1/2 py-5 md:py-10 md:px-14 order-1">
         <h3 class="text-md text-gray-700">Service:</h3>
-        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5 slide-in-up">
+        <h1 class="text-gray-500 text-4xl md:text-6xl font-bold mb-5">
           Training & <br />Support
         </h1>
-        <p class="slide-in-left">
+        <p>
           We offer after-sales service support and training, and also organize special on-demand trainings on any of our listed services above.
           <br />
           Our team of experts will take you by the hand and train you from start to finish, we are here to help you.
