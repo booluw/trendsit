@@ -236,7 +236,7 @@
         </p>
       </div>
     </section>
-    <div id="clients"></div>
+    <!--- div id="clients"></div>
     <section class="text-gray-800 bg-white px-2 md:px-12 py-5 md:py-20 mb-10">
       <h1 class="text-gray-800 text-4xl md:text-6xl font-bold mb-5 text-center">
         Our Clients
@@ -257,7 +257,7 @@
         <img src="~/assets/img/EKSU-logo.png" class="w-auto h-20 object-contain filter grayscale" alt="EKSU's logo"/>
         <img src="~/assets/img/FUDutsinma-logo.jpg" class="w-auto h-20 object-contain filter grayscale" alt="FUDutsinma's logo"/>
       </div>
-    </section>
+    </section --->
   </section>
 </template>
 
