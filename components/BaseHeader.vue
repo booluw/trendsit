@@ -28,13 +28,13 @@
           <nuxt-link to="/" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Home</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link to="/about-us" class="text-gray-300 mr-5" exact-active-class="text-pink-500">About Us</nuxt-link>
+          <nuxt-link :to="{ path: '',hash:'#about-us'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">About Us</nuxt-link>
         </li>
         <li class="mb-5">
           <nuxt-link :to="{ path: '/',hash:'#clients'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Clients</nuxt-link>
         </li>
         <li class="mb-5">
-          <nuxt-link :to="{ path: '/',hash:'#services'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Services</nuxt-link>
+          <nuxt-link :to="{ path: '/services'}" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Services</nuxt-link>
         </li>
         <li class="mb-5">
           <nuxt-link to="/products" class="text-gray-300 mr-5" exact-active-class="text-pink-500">Products</nuxt-link>
@@ -54,13 +54,18 @@ export default {
     }
   },
   methods: {
-    openMenu() {/*
-      let tl = gsap.timeline();
-      tl.from('.menu__link', {opacity: .6, y: -3}) */
+    openMenu() {
       this.burger = true
     },
     closeMenu() {
       this.burger = false
+    }
+  },
+  watch: {
+    $route: {
+      handler: function() {
+        this.burger = false
+      }
     }
   }
 }
