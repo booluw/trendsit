@@ -7,7 +7,6 @@
           Trends IT Services is a network services and sustainable energy installation and project service rendering company targeted at training and optimizing work operations in organizations.
         </p>
         <div class="pt-4 md:flex md:gap-2 justify-between md:justify-start flex-wrap">
-          <a href="tel:+2348037022330" class="text-white hover:text-pink-600 ease-in-out block mb-3 md:mb-0" target="_blank">+234 803 702 2330</a>
           <a href="tel:+2348083981055" class="text-white hover:text-pink-600 ease-in-out block md:mr-5" target="_blank">+234 808 398 1055</a>
           <a href="mailto:info.trendsit@gmail.com" class="text-white hover:text-pink-600 ease-in-out block w-full" target="_blank">info.trendsit@gmail.com</a>
         </div>
